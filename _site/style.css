@@ -76,6 +76,7 @@
   .padded-top-left-right {padding: 5% 5% 0% 5%}
   .padded-t-0 {padding-top: 0;}
   .padded-50 {padding: 48%;}
+  .padded-sides-nav {padding: 0% 2%;}
 
 
   .capped-width { width: 80%; margin: auto;}
@@ -107,7 +108,7 @@
   /* General typography */
   h1 {
     font-family: "Playfair Display", serif;
-    font-size: 3.5rem;
+    font-size: 3.3rem;
     color: white;
     font-weight: 300;
     text-shadow: 4px 4px 5px rgba(0,0,0,0.5);}
@@ -634,22 +635,22 @@ span.psw {
 
   .banner,
   .banner-with-header {
-    background-image: url('/images/banner01.jpg');
+    background-image: url('/images/banner41.jpg');
     background-size: cover;
-    background-position: bottom;
+    background-position: 18% 60%;
     min-height: 80vh;
   }
 
   .banner2 {
-    background-image: url('/images/banner3.jpg');
+    background-image: url('/images/course.jpg');
     background-size: cover;
     background-position: top;
     min-height: 80vh;
   }
   .banner3 {
-    background-image: url('/images/banner5.jpg');
+    background-image: url('/images/banner4.jpg');
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     min-height: 80vh;
   }
 
@@ -691,7 +692,7 @@ span.psw {
 
 
   .bg-image-safari {
-    background-image: url('/images/safari.jpg');
+    background-image: url('/images/safari-car1.jpeg');
     background-size: cover;
     background-position: center;
     min-height: 100%;
@@ -699,7 +700,7 @@ span.psw {
   }
 
   .bg-image-beach {
-      background-image: url('/images/beach.png');
+      background-image: url('/images/beachlagoon.jpg');
     background-size: cover;
     background-position: center;
     min-height: 100%;
@@ -723,9 +724,9 @@ span.psw {
   }
 
   .bg-mock-up3 {
-    background-image: url('/images/banner6.jpg');
+    background-image: url('/images/socialmediaretreat4.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: 50% 45%;
     min-height: 100%;
     background-repeat: no-repeat;
   }
@@ -1108,77 +1109,15 @@ a.bg-image-photography {
 
 .square {padding-bottom: 100%;}
 
-/* pop-up gallery */
-.popup-gallery .bg-image {
-  border: 2px solid white;
-}
-
-
-/* Masonry Gallery */
-
-.masonry { /* Masonry container */
-  column-count: 3;
-  column-gap: 1rem;
-}
-
-.masonry .item { /* Masonry bricks or child elements */
-  background-color: #eee;
-  display: inline-block;
-  margin-bottom: 1rem;
-  width: 100%;
-}
 
 @media(max-width:767px) {
-  .masonry {
-    column-count: 2;
-  }
+
 }
 
 @media(max-width:567px) {
-  .masonry {
-    column-count: 1;
-  }
 }
 
 /* pricing cards  */
-
-.card.featured {
-  border: 2px solid 2d1f14;
-}
-
-.pricing-name {
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: rgb(120,120,125);
-}
-
-.card .button {
-  margin-top:2rem;
-}
-
-/* Responsive video */
-.embed-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
-}
-
-.embed-container.vertical {
-  padding-bottom: 162.25%;
-}
-
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
 /* Accordian slides */
 .accordion{
  border: solid 1px  #766c5b;
@@ -1253,6 +1192,8 @@ a.bg-image-photography {
     top: 1.5rem;
     right: 3vh;
   }
+
+  .dream {font-size: 1.7rem;}
 
 
 
