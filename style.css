@@ -466,16 +466,6 @@ span.psw {
     padding: 0% 2% 0% 2%;
   }
 
-  /* Dropdown Header */
-
-
-  header .dropdown:hover .dropdown-menu {
-    display: block;
-    position: absolute;
-    top: 2rem;
-    right: -1rem;
-    background-color: whit
-  }
 
   /* Fixed Header Option */
 
